@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container{
+    position: relative;
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font: 18px;
+  }
+
+  img{
+    height: 400px;
+    width: 1920px;
+    opacity: 0.3;
+  }
+
+  .topleft{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .topright{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 20px;
+  }
+
+  .bottomleft{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .bottomright{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+</style>
+<body>
+  <div class="container">
+    <img src="assets/garden.jpg" width="1920" height="400">
+    <div class="center"> Center</div>
+    <div class="topleft"> top left</div>
+    <div class="topright"> top right</div>
+    <div class="bottomleft"> bottom left</div>
+    <div class="bottomright"> bottom right</div>
+  </div>
+</body>
+</html>

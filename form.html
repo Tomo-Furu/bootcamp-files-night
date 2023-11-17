@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  /* universal selector */
+  *{
+    color: blue;
+  }
+  /* class selector */
+  .fullname{
+    color: blue;
+  }
+  /* id selector */
+  #h1{
+    color: rgb(250, 128, 114);
+    opacity: 1;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: line-through;
+  }
+  /* font styles = italic, normal, oblique */
+  /* texr-transform = capitalize uppercase, lowercase */
+/* oveline,  */
+
+.h2{
+  text-align: center;
+}
+</style>
+<body>
+
+  <h1 id="h1">This is the Heading 1</h1>
+  <br>
+  <h2 class="h2">This is the Heading 2</h2>
+  <form action="table.html">
+    <label class="fullname" for="full-name" style="font-family: Georgia, 'Times New Roman', Times, serif;"> Full Name</label>
+    <input type="text" name="full-name" id="full-name" placeholder="Enter First Name"><br>
+    <label class="fullname" for="number" id="id-number"> Phone Number</label>
+    <input type="number" max="10" name="number" id="number" placeholder="Enter Number Only"><br>
+    <label for="full-name"> Password</label>
+    <input type="password" name="password id=password"><br>
+    <label for="full-name"> Birthday</label>
+    <input type="date" name="bdate" id="bdate"><br>
+    <label for="full-name"> Email</label>
+    <input type="email" name="email" id="email"><br>
+    <label for=""> Comments</label>
+    <textarea name="comments" id="comments" cols="60" rows="10"></textarea><br>
+
+    <br> <br>
+    <!-- Radio BUtton -->
+    <p>Please select your favorite fruit:</p>
+    <input type="radio" name="fruit" id="mango" value="mango">
+    <label for="mango">Mango</label>
+
+    <input type="radio" name="fruit" id="cherry" value="cherry">
+    <label for="cherry">Cherry</label>
+
+    <input type="radio" name="fruit" id="pineapple" value="pineapple">
+    <label for="pineapple">Pineapple</label>
+
+<!-- Check Box -->
+<p>Please select your favorite Car brand:</p>
+    <input type="checkbox" name="car" id="suzuki" value="suzuki">
+    <label for="suzuki">Suzuki</label>
+
+    <input type="checkbox" name="car" id="ferrari value="ferrari">
+    <label for="ferrari">Ferrari</label>
+
+    <input type="checkbox" name="car" id="chevolet" value="chevolet">
+    <label for="chevolet">Chevolet</label><br>
+
+    <!-- Drop down list -->
+    <label for="device"> What is your operating system?</label>
+    <select name="device" id="device">
+      <option value="Windows">Windows</option>
+      <option value="IOS">IOS</option>
+      <option value="Linux">Linux</option>
+      <option value="Ubuntu">Ubuntu</option>
+    </select><br>
+
+    <!-- Multiple Select -->
+    <label for="device"> What is your operating system?</label>
+    <select name="device" id="device" multiple>
+      <option value="Windows">Windows</option>
+      <option value="IOS">IOS</option>
+      <option value="Linux">Linux</option>
+      <option value="Ubuntu">Ubuntu</option>
+    </select><br>
+
+    <input type="file" name="file">
+
+    <a href="table.html" target="_blank">Table</a>
+    <a href="table.html" target="_self">Same Page</a>
+
+    <input type="submit" name="submit" value="submit">
+  </form>
+</body>
+</html>

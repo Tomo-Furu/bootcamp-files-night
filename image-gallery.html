@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+</head>
+<style>
+  div.gallery{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 180px;
+  }
+  div.gallery:hover{
+    border: 5px solid #777;
+  }
+  div.description{
+    padding: 15px;
+    text-align: center;
+    width: auto;
+  }
+</style>
+<body>
+  <div class="gallery">
+      <a target="_blank" href="assets/koala.jpg">
+        <img src="assets/koala.jpg" alt="koala" width="180" height="300">
+      </a>
+      <div class="description"> This is the description of koala</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="assets/squirrel.jpg">
+      <img src="assets/squirrel.jpg" alt="squirrel" width="180" height="300">
+    </a>
+    <div class="description"> This is the description of squirrel</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="assets/penguin.jpg">
+    <img src="assets/penguin.jpg" alt="penguin" width="180" height="300">
+  </a>
+  <div class="description"> This is the description of penguin</div>
+</div>
+
+</body>
+</html>
