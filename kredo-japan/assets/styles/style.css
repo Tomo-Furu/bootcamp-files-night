@@ -1,0 +1,246 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/* Header area */
+.nav {
+  background-color: azure;
+  width: 100%;
+  padding: 1em auto;
+  overflow: auto;
+  font-size: 1em;
+}
+
+.nav ul {
+  float: flex;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.nav ul li {
+  display: inline;
+  margin-left: 2em;
+}
+
+.nav ul a {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.nav ul img {
+  width: 7.5%;
+  height: 7.5%;
+}
+
+/* Banner area */
+.banner {
+  width: 100%;
+  height: 600px;
+  background-image: url(../images/atf.jpg);
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+.banner-text {
+  width: 45%;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+}
+
+.banner-text h1 {
+  color: #fff;
+  font-size: 4em;
+}
+
+.banner-text p {
+  color: #fff;
+  font-size: 1.25em;
+}
+
+.banner-text a {
+  color: #fff;
+  background-color: yellowgreen;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10%;
+  padding: .5em;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+/* About area */
+.about {
+  background-color: azure;
+  position: relative;
+  padding: 2em 0;
+}
+
+.about h2 {
+  text-align: center;
+  padding: 2em;
+}
+
+.about a {
+  color: #fff;
+  background-color: yellowgreen;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10%;
+  padding: .5em;
+  margin: .5em;
+  display: inline-block;
+}
+
+.about img {
+  height: 200px;
+  margin: 0 1em 0 1em;
+}
+
+.about-item1 {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  font-size: 1.5em;
+  text-align: left;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 150px;
+}
+
+.about-item1 a {
+  float: left;
+}
+
+.about-item2 {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  font-size: 1.5em;
+  text-align: left;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 150px;
+}
+
+.about-item2 a {
+  float: right;
+}
+
+/* Form area */
+.schedules {
+  background-color: salmon;
+  width: 50%;
+  height: 500px;
+  float: left;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.schedule-header {
+  text-align: center;
+  margin: 2em;
+}
+
+form {
+  text-align: center;
+  overflow: auto;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+.full-name, .age, .email, .date {
+  padding: 1em;
+}
+
+form label {
+  font-weight: 700;
+  float: left;
+  margin-left: 20%;
+}
+
+form input {
+  width: 50%;
+  height: 2em;
+  float: right;
+  border-radius: 10%;
+  margin-right: 10%;
+}
+
+form input[type="submit"] {
+  background-color: black;
+  color: white;
+  width: 60%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 700;
+  border-radius: 5%;
+  padding: .5em;
+  margin-top: 1em;
+}
+
+/* Table area */
+.booking {
+  background-color: salmon;
+  width: 50%;
+  height: 500px;
+  float: left;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.booking-header {
+  text-align: center;
+  margin: 2em;
+}
+
+table {
+  text-align: center;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+th, td {
+  padding: .5em;
+}
+
+.even {
+  background-color: lightgrey;
+}
+
+.reserved {
+  background-color: lightgreen;
+}
+
+.pending {
+  background-color: orange;
+}
+
+/* Footer area */
+.footer {
+  height: auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 2em;
+}
